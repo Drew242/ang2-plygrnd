@@ -30,7 +30,7 @@ System.register(['angular2/core', './professors.service'], function(exports_1, c
                 ProfessorsComponent = __decorate([
                     core_1.Component({
                         selector: 'professors',
-                        template: "\n    <h2>{{ title }}</h2>\n    <ul>\n      <li *ngFor=\"#professor of professors\">\n        {{ professor }}\n      </li>\n    </ul>\n  ",
+                        template: "\n    <h2>Fall 2016</h2>\n      <p>{{ title }}</p>\n    <ul>\n      <li *ngFor=\"#professor of professors\">\n        {{ professor }}\n      </li>\n    </ul>\n  ",
                         providers: [professors_service_1.ProfessorService]
                     }), 
                     __metadata('design:paramtypes', [professors_service_1.ProfessorService])

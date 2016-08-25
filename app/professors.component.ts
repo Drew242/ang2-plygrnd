@@ -4,7 +4,8 @@ import {ProfessorService} from './professors.service';
 @Component({
   selector: 'professors',
   template: `
-    <h2>{{ title }}</h2>
+    <h2>Fall 2016</h2>
+      <p>{{ title }}</p>
     <ul>
       <li *ngFor="#professor of professors">
         {{ professor }}
